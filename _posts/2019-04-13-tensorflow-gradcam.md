@@ -4,7 +4,7 @@ title:  "Guided GradCAM in TensorFlow"
 ---
 
 # Guided GradCAM in TensorFlow
-Last year, I was working on optimizing a person re-identification architecture that used a CNN for feature extraction for my master thesis. I relied on several visualization techniques for understanding the descriptors being computed such as displaying the learned filters on early convolutional layers or the images that maximally activate each of the filters on the last convolutional layer. However, I felt these only gave me a very broad idea of what was triggering each filter and I wanted something more insightful. 
+Last year, I was working on optimizing a person re-identification architecture that used a CNN for feature extraction for my master thesis. I relied on several visualization techniques for understanding the descriptors being computed such as displaying the learned filters on early convolutional layers or the images that maximally activate each of the filters on the last convolutional layer. However, these only gave me a very broad idea of what was triggering each filter and I wanted something more insightful. 
 
 Several CNN visualization techniques have been developed and a comprehensive list can be found in the [Stanford CS231n webpage](http://cs231n.github.io/understanding-cnn/). After coming across the beatufiful visualizations shown in the Guided GradCAM [1] paper, I decided to implement it myself so I could use it in my future projects.
 I have posted the code alongside with the implementation and usage details in [my github](https://github.com/d3rezz/tf-guided-gradcam). Although the example code uses TensorFlow 1.13, the provided funtion to compute the Guided GradCam  maps `gradcam()` is compatible with any machine learning framework. 
