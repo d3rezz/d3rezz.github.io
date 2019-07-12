@@ -22,7 +22,7 @@ The code for this post is implemented using Tensorflow 1.13 and is available on 
 Let's take a look at a 100 random examples from the Fashion-MNIST dataset.
 
 <div align="center" style="padding: 10px;">
-	<img src="/assets/post_images/2019-07-11-triplet-loss/visualizing-data.png">
+	<img src="/assets/post_images/2019-07-11-triplet-loss/visualizing-data.png" />
 </div>
 
 There are 10 different classes and images are labelled as follows:
@@ -47,7 +47,7 @@ It is important to notice how shoes are almost always shown from the same side a
 The triplet loss works by comparing 3 images at a time: an anchor, a positive (image of the same class) and a negative (image of a different class). It aims at minimizing the distance between the anchor  and the positive while maximizing the distance from the anchor to the negative. The figure below should make it more clear:
 
 <div align="center">
-	<img src="/assets/post_images/2019-07-11-triplet-loss/triplet.png" width=400px>
+	<img src="/assets/post_images/2019-07-11-triplet-loss/triplet.png" width="400px" />
 </div>
 
 
@@ -55,7 +55,9 @@ In contrast, the cross-entropy loss simply aims at learning a (non-linear) separ
 
 In mathematical notation, the triplet loss can be written as:
 
-![equation](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BJ%7D%20%3D%20%5Csum%5E%7Bm%7D_%7Bi%3D1%7D%20max%5Clarge%280%2C%20%5Csmall%20%5Cmid%20%5Cmid%20f%28A%5E%7B%28i%29%7D%29%20-%20f%28P%5E%7B%28i%29%7D%29%20%5Cmid%20%5Cmid_2%5E2-%20%5Cmid%20%5Cmid%20f%28A%5E%7B%28i%29%7D%29%20-%20f%28N%5E%7B%28i%29%7D%29%20%5Cmid%20%5Cmid_2%5E2%20&plus;%20%5Calpha%5Clarge%29)
+<div align="center">
+	<img src="https://latex.codecogs.com/svg.latex?%5Cmathcal%7BJ%7D%20%3D%20%5Csum%5E%7Bm%7D_%7Bi%3D1%7D%20max%5Clarge%280%2C%20%5Csmall%20%5Cmid%20%5Cmid%20f%28A%5E%7B%28i%29%7D%29%20-%20f%28P%5E%7B%28i%29%7D%29%20%5Cmid%20%5Cmid_2%5E2-%20%5Cmid%20%5Cmid%20f%28A%5E%7B%28i%29%7D%29%20-%20f%28N%5E%7B%28i%29%7D%29%20%5Cmid%20%5Cmid_2%5E2%20&plus;%20%5Calpha%5Clarge%29"/>
+</div>
 
 In practice, the margin value &#945; sets how far the clusters of each class should be.
 For a more thorough explanation of the triplet loss, check [5].
@@ -63,7 +65,7 @@ For a more thorough explanation of the triplet loss, check [5].
 Depending on how the negative is positioned in relation to the anchor and positive, it can be classified as:
 
 <div align="center">
-	<img src="/assets/post_images/2019-07-11-triplet-loss/triplet_types.png" width=400px>
+	<img src="/assets/post_images/2019-07-11-triplet-loss/triplet_types.png" width="400px" />
 </div>
 
 
@@ -166,14 +168,6 @@ By looking at the `embeddings_mean_norm` plot, we can observe the embeddings hav
 I found training with the batch hard strategy much more instable. 
 With a low learning rate of 10<sup>-6</sup>, the loss converged to 0.5, which is equal to the margin value.
 
-<div>
-    <table align="center">
-        <tr>
-    	    <td align="center" style="padding:5px">
-      	    </td>      
-        </tr>
-   </table>
-</div>
 
 <div align="center" style="padding: 10px;">
     <img src="/assets/post_images/2019-07-11-triplet-loss/batchhard_loss.png" width="300" />
