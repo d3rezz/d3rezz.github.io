@@ -14,7 +14,7 @@ For this post, I will be using the Fashion-MNIST dataset [4], which contains ima
 
 I will also experiment the [tf.Estimator](https://www.tensorflow.org/guide/estimators) API to see if it reduces the amount of Tensorflow boilerplate code needed and helps making it more modular. Many available models use the tf.Estimator API so it should be useful to learn.
 
-The code for this post is implemented using Tensorflow 1.13 and is available on [my github](github.com/d3rezz).
+The code for this post is implemented using Tensorflow 1.13 and is available on [my github](https://github.com/d3rezz/triplet_loss).
 
 
 
