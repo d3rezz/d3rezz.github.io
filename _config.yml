@@ -1,9 +1,10 @@
 # main text of home
 name: Francisco Salgado
-bio: A Man who travels the world eating noodles
+bio: Computer Vision engineer with a passion for photography.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: >- # this means to ignore newlines until "baseurl:"
+  My personal blog where I write about my projects on Computer Vision and AI.
 
 # if it's an external image, update below for true
 # better with square images
@@ -50,18 +51,11 @@ github: d3rezz
 email: salgfrancisco @ gmail
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    franciscosalgado:
+        name: Francisco Salgado
+        bio: Computer Vision engineer with a passion for photography.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
