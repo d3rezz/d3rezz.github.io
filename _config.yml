@@ -47,12 +47,12 @@ github: d3rezz
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: salgfrancisco @ gmail
+email: salgfrancisco at gmail
 
 authors:
     franciscosalgado:
         name: Francisco Salgado
-        bio: Computer Vision engineer with a passion for photography.
+        bio: Computer Vision researcher with a passion for photography.
         external-image: false
         picture: assets/images/profile.jpg
 
