@@ -3,8 +3,7 @@ name: Francisco Salgado
 bio: Computer Vision engineer with a passion for photography.
 
 # twitter summary info
-description: >- # this means to ignore newlines until "baseurl:"
-  My personal blog where I write about my projects on Computer Vision and AI.
+description: My personal blog where I write about my projects on Computer Vision and AI.
 
 # if it's an external image, update below for true
 # better with square images
@@ -17,7 +16,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://www.franciscosalgado.com
+url: https://www.franciscosalg.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
