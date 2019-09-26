@@ -1,6 +1,6 @@
 # main text of home
 name: Francisco Salgado
-bio: Computer Vision researcher with a passion for photography.
+bio: Computer Vision and Machine Learning researcher.
 
 # twitter summary info
 description: My personal blog where I write about my projects on Computer Vision and AI.
@@ -52,7 +52,7 @@ email: salgfrancisco at gmail
 authors:
     franciscosalgado:
         name: Francisco Salgado
-        bio: Computer Vision researcher with a passion for photography.
+        bio: Computer Vision and Machine Learning researcher.
         external-image: false
         picture: assets/images/profile.jpg
 
