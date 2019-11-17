@@ -18,10 +18,10 @@ I put together a small python function to manually compute a perspective transfo
     <table align="center">
         <tr>
             <td style="padding:5px">
-                <img src="/assets/post_images/2019-11-17-perspective_transform/bmw.jpg" height="250" />
+                <img src="/assets/post_images/2019-11-17-perspective_transform/bmw.jpg" height="200" />
             </td>
             <td style="padding:5px">
-                <img src="/assets/post_images/2019-11-17-perspective_transform/transformed.jpg" height="250" />
+                <img src="/assets/post_images/2019-11-17-perspective_transform/transformed.jpg" height="200" />
             </td> 
         </tr>
         <tr>
