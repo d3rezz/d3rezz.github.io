@@ -39,7 +39,7 @@ In addition, it requires running an optimization task each time which is not pra
 
 In the future I would like to experiment with more robust Neural Style Transfer algorithms such as [1], which uses a style prediction network to learn "style" from an image on a single forward pass. A great blog post on porting this algorithm to run on the browser using network distillation can be found in [2].
 
-# References
+## References
 [1] Ghiasi, Golnaz, et al. "Exploring the structure of a real-time, arbitrary neural artistic stylization network." (2017).
 
 [2] Magenta, "Porting Arbitrary Style Transfer to the Browser", 2018, https://magenta.tensorflow.org/blog/2018/12/20/style-transfer-js/ (accessed 5 Aug 2019)
