@@ -21,7 +21,7 @@ author: franciscosalgado
 </table>
 
 
-Go and check out the Rapper Generator at [https://rappergenerator.franciscosalg.com/](https://rappergenerator.franciscosalg.com/) !
+Go and check out the Rapper Generator at [http://rappergenerator.franciscosalg.com/](http://rappergenerator.franciscosalg.com/) !
 
 This post details how I trained the StyleGAN2 [1] model, which powers the Rapper Generator website. 
 
