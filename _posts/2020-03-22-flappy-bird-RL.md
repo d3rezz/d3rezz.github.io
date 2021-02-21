@@ -58,7 +58,7 @@ Lastly, I was very impressed with how painless it is to use TF 2.0 vs the previo
 
 [1] Mnih, Volodymyr, et al. "Human-level control through deep reinforcement learning." Nature 518.7540 (2015): 529-533.
 
-[2] Sutton, Richard S., and Andrew G. Barto. Reinforcement learning: An introduction. MIT press, 2018.
+[2] Sutton, Richard S., and Andrew G. Barto. "Reinforcement learning: An introduction." MIT press, 2018.
 
 [3] Reinforcement Learning (DQN) Tutorial. pytorch.org/tutorials/intermediate/reinforcement_q_learning.html. Accessed 22 Mar. 2020. 
 
