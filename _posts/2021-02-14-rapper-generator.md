@@ -51,7 +51,7 @@ The API link for this looks like
 `https://genius.com/api/songs/chart?page=PAGE_NUMBER&per_page=NUM_SONGS_PER_PAGE&time_period=TIME_PERIOD&chart_genre=rap'
 replacing TIME_PERIOD with "all_time", "month", "week" or "day".
 
-Parsing the returned data is a peace of cake with the BeautifulSoup module. See the script ```find_rappers_instagram.py```.
+Parsing the returned data is a piece of cake with the BeautifulSoup module. See the script ```find_rappers_instagram.py```.
 
 Unfortunately the charts API only shows a limited number of songs. In total, I collected 255 Instagram handles this way, which would have to do.
 
@@ -139,7 +139,7 @@ Samples Psi = 0.7:
     </tr>
 </table>
 
-Looking at the results, psi=0.7 introduces enough variation to produce novel faces without introducing many artifacts. Too keep things interesting, all images for the website were generated at this psi.
+Looking at the results, psi=0.7 introduces enough variation to produce novel faces without introducing many artifacts. To keep things interesting, all images for the website were generated at this psi.
 
 ## Lyrics and Rapper Names
 As just displaying the generated images would look too plain, I came up with a simple model to write new rap lyrics.
