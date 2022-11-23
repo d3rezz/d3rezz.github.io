@@ -1,9 +1,9 @@
 # main text of home
 name: Francisco Salgado
-bio: Computer Vision and Machine Learning researcher.
+bio: Computer Vision and ML Engineer.
 
 # twitter summary info
-description: My personal blog where I write about my projects on Computer Vision and AI.
+description: My personal blog where I write about Computer Vision and AI.
 
 # if it's an external image, update below for true
 # better with square images
@@ -52,7 +52,7 @@ email: salgfrancisco at gmail
 authors:
     franciscosalgado:
         name: Francisco Salgado
-        bio: Computer Vision and Machine Learning researcher.
+        bio: Computer Vision and ML Engineer.
         external-image: false
         picture: assets/images/profile.jpg
 
