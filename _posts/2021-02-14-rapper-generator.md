@@ -21,8 +21,7 @@ author: franciscosalgado
 </table>
 
 
-Go and check out the Rapper Generator at [http://rappergenerator.franciscosalg.com/](http://rappergenerator.franciscosalg.com/) !
-Ouch, unfortunately the page is down for the time being!
+Go and check out the Rapper Generator at [https://franciscosalg.neocities.org/rappergenerator/](https://franciscosalg.neocities.org/rappergenerator/) !
 
 This post details how I trained the StyleGAN2 [1] model, which powers the Rapper Generator website. 
 
@@ -150,7 +149,7 @@ I scraped the top rap songs from Genius and trained a Markov Chain model on them
 The relevant code is in ```lyrics_scraper.py``` and ```markov.py```.
 
 ## Website
-I've created a website named ["Rapper Generator"](http://rappergenerator.franciscosalg.com/)) to display the generated images.
+I've created a website named ["Rapper Generator"](https://franciscosalg.neocities.org/rappergenerator/)) to display the generated images.
 
 As it would become too costly to have a dedicated server generating samples of faces on the fly, I had to generate them beforehand.
 I generated around 1500 images (at psi=0.7) and 1000 lyrics, which are displayed randomly everytime the page is refreshed.
